@@ -1,0 +1,21 @@
+{
+  "name": "ariake-black",
+  "displayName": "ariake-black",
+  "description": "A sort of fork of Ariake Dark that keeps the dark VS Code editor without the blue.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ariake Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ariake-black-color-theme.json"
+      }
+    ]
+  }
+}
